@@ -6,5 +6,12 @@
   {
     "repository": "vendor_xiaomi_beryllium",
     "target_path": "vendor/xiaomi/beryllium"
+  },
+  {
+    "repository": "tedomi2705/vendor_miuicamera",
+    "target_path": "vendor/miuicamera",
+    "remote": "github-non-los",
+    "branch": "udc",
+    "clone-depth": "1"
   }
 ]
