@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2024 The LineageOS Project
+# Copyright (C) 2018-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -17,9 +17,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # FM
 PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
+    FM2
 
 $(call soong_config_set,libfmjni,vendor,qcom)
 
