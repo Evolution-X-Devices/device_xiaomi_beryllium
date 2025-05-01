@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-beryllium/config.mk)
+$(call soong_config_set,camera,package_name,com.android.camera)
 
 # Control groups and task profiles
 PRODUCT_COPY_FILES += \
